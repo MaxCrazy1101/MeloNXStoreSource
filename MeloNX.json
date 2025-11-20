@@ -16,7 +16,7 @@
       "versions": [
         {
           "version": "2.1",
-          "buildVersion": "2.1",
+          "buildVersion": "1",
           "date": "2025-11-02",
           "localizedDescription": "# What's New\n\n## Updates\n- Updated Motion for BackBone Controllers  \n- Updated Mods to improve support  \n- Updated Device / OS Detection  \n- Updated MoltenVK  \n- Updated iOS 15 UI  \n- Updated Memory management to reduce RAM usage  \n\n---\n\n## Fixes\n- Fixed file importer when using a certificate  \n- Fixed games crashing due to internet issues (e.g., DOOM 2016)  \n- Fixed Unreal Engine games flickering or showing broken graphics  \n- Fixed various games including The Witcher 3, Silksong, Assassin's Creed, Spyro 1–3, Crash 4, and others  \n- Fixed Sonic Frontiers  \n- Fixed iOS 16 support  \n- Fixed Cheats (thank you @UmiAoi)  \n- Fixed UI lockups  \n- Fixed iOS 26 / iPadOS 26 external monitor and AirPlay support  \n\n---\n\n## Additions\n- Added iOS 26 support for both TXM and Non-TXM devices  \n- Added macOS features  \n- Added Controller Layout Editor and Global Virtual Controller Layout  \n- Added Clear Shader Cache and Clear All Shader Cache buttons  \n- Added new Emulation Display UI option  \n- Added Internet support (non-Nintendo servers)  \n- Added LAN Mode Multiplayer (supports Ryujinx forks, MeloNX, and stock Switches)  \n- Added ldn_mitm Multiplayer (supports Ryujinx forks, MeloNX, and modded Switches)  \n- Added Profile Configuration  \n- Added Controller Type setting  \n- Added Custom ROM directory (not compatible with cloud storage)  \n- Added Controller Reconnection  \n- Added Extended Virtual Addressing Entitlement Detection  \n- Added LiveContainer (not recommended) Detection and Integration  \n- Added arm64 device support (when using TrollStore)  \n- Added Updated Performance HUD  \n- Added Proper File Picker Fix  \n- Added Certificate mention in Setup  \n- Added Increased Memory Entitlement Alert on game launch  \n- Added Full SDK20 and REV15 / Firmware 20 support  \n",
           "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/1249/download",
@@ -24,7 +24,7 @@
         },
         {
           "version": "2.0.1",
-          "buildVersion": "2.0.1",
+          "buildVersion": "1",
           "date": "2025-07-14",
           "localizedDescription": "# What's New\n- **UE Games**: Fixes the bug in the last release that causes Unreal Engine games to show a black screen or have colour issues.\n- **Virtual Controller Button**: Fixes bug where buttons don't properly register clicks.\n- **Launch Crash**: Fixes the bug where the app crashes on any game launch with `System.PlatformNotSupportedException`\n- **Fix TimeZones**: Fixes the bug where time in-games aren't reflected properly",
           "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/591/download",
@@ -32,7 +32,7 @@
         },
         {
           "version": "1.8.0",
-          "buildVersion": "1.8.0",
+          "buildVersion": "1",
           "date": "2025-07-14",
           "localizedDescription": "# What's New\n\n### Major Performance and Stability Improvements  \nWe've made significant under-the-hood changes to dramatically boost both performance and overall stability. Expect faster load times, smoother gameplay, and reduced crashes across the board.\n\n### Improved Game Compatibility  \n- Substantial compatibility upgrades across many titles.  \n- **Unreal Engine games** no longer display a black screen—games now render with texture flickering.\n- **Fixed \"Player 1 to Handheld\" option** – You can now play titles that previously wouldn't let you go past a controller screen, such as the Pokémon games!\n\n---\n\n### Enhanced Experience and Features\n\n- **All-New Main Menu UI** – A refreshed, modern design for easier navigation.\n- **Motion Controls** – Works seamlessly with both physical controllers and iPhone/iPad gyroscopes.\n- **Rumble Support** – Feel the game with controller vibration feedback.\n- **Revamped Settings UI** – Streamlined layout for better usability.\n- **Per-Game Settings** – Customize controls and options for each title individually.\n- **New Virtual Controller** – Rebuilt from the ground up for better responsiveness and customization.\n\n---\n\n### Fixes and Improvements\n\n- Fixed **Metal HUD toggle** not working as intended.\n- **Crash Detection on Launch** – Automatically detects launch-time crashes and displays helpful prompts.\n- **System Time Fix** – In-game time now syncs correctly with your device.\n- **Enhanced Logging** – Now includes device model and entitlement info for easier debugging.\n- **Auto StikDebug** – Automatically enables advanced debugging tools.\n- **Updated and Fixed DLC / Update Manager** – Improved handling of game updates and downloadable content for smoother management.\n\n---\n\n### New Settings Options\n\n- **Button Hold Toggle** – Tap once to simulate holding a button when using the Virtual Controller.\n- **Show Stick Buttons** - Shows L3 and R3 on when using the Virtual Controller.\n- **Virtual Controller Opacity** – Adjust the transparency of on-screen controls.\n- **Disable Touch Screen** – Optional setting to prevent accidental input.\n- **Swap Face Buttons (Physical Controller)** – Swaps ABXY layout to match your preferred controller scheme.\n- **Black Screen on AirPlay (Light Mode)** – Prevents unwanted screen mirroring visuals.\n- **Location Access (Optional)** – Prevents app suspension in the background. *(Location data is not collected or transmitted.)*\n- **App Icon Switcher** – Choose from alternate app icons to personalize your Home Screen.",
           "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/590/download",
@@ -40,7 +40,7 @@
         },
         {
           "version": "1.7.0",
-          "buildVersion": "1.7.0",
+          "buildVersion": "1",
           "date": "2025-07-14",
           "localizedDescription": "# Changelog\n- Updated JitStreamer Implementation\n- Move MeloNX Core off the Main Thread\n- Implement new JIT detection method\n- Remove \"MVK: Pre-fill Metal Command Buffers\" Setting\n- Rewritten Virtual Controller\n- JIT Checkmark on Main Menu\n- Add Wait For VPN when using JitStreamer\n- Rewrite DLC and Update Manager\n- Fix Firmware Button in Setup\n- Rename RyujinxKeyboard to RyujinxHelper\n- Update RyujinxHelper\n- Fix get_current_fps() crash on some devices\n- Fix Controller Applet Alerts\n- Better Performance",
           "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/589/download",
@@ -48,7 +48,7 @@
         },
         {
           "version": "1.6.0",
-          "buildVersion": "1.6.0",
+          "buildVersion": "1",
           "date": "2025-07-14",
           "localizedDescription": "# Changelog\n- Fix Controller Mapping\n- Fix Updates and DLCs (PR [#21](https://git.743378673.xyz/MeloNX/MeloNX/pulls/21))\n- Fix Metal HUD\n- Add Metal HUD Option in settings\n- Implement New Version Alert (PR [#20](https://git.743378673.xyz/MeloNX/MeloNX/pulls/20))\n- Implement JIT Cache Regions into NoWXCache\n- Better Performance\n- Updates MoltenVK\n- Fix some Visual Issues in games\n- Fix Super Mario 3D World (and other games that may suffer from the same issue)",
           "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/588/download",
@@ -56,7 +56,7 @@
         },
         {
           "version": "1.5.0",
-          "buildVersion": "1.5.0",
+          "buildVersion": "1",
           "date": "2025-07-14",
           "localizedDescription": "One of the biggest updates yet!\n\n# Changelog\n- Update to the latest Ryujinx Core!\n- Better Performance\n- More Game Compatibility",
           "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/587/download",
@@ -64,7 +64,7 @@
         },
         {
           "version": "1.4.0",
-          "buildVersion": "1.4.0",
+          "buildVersion": "1",
           "date": "2025-07-14",
           "localizedDescription": "# Changelog\n- Rewrite Display Code (SDL isn't used for display anymore)\n- Add New Onboarding / Setup\n- Better Performance\n- Remove \"SDL Window\" option in settings\n- Fix JIT Cache Regions\n- Fix how JIT is detected in Settings\n- Fix ABYX being swapped on controller.\n- Settings are now a config.json file\n- Fix Performance Overlay not showing when Virtual Controller is hidden\n- Add displaying logs when Loading or in-game\n- Fix Launching games from outside of the roms folder\n- Add Waiting for JIT popup\n- Fix spesific Games\n- Added Back Herobrine (\"You were supposed to be the hero, Bryan\") ",
           "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/586/download",
@@ -72,7 +72,7 @@
         },
         {
           "version": "1.3.0",
-          "buildVersion": "1.3.0",
+          "buildVersion": "1",
           "date": "2025-07-14",
           "localizedDescription": "# Changelog\n- Add JIT Cache Regions to Software Page Table \n- Fix most controllers (GCController wrapper, [PR #6](https://git.743378673.xyz/MeloNX/MeloNX/pulls/6))\n- Add DLC Manager (DLC manager implemented, [PR #11](https://git.743378673.xyz/MeloNX/MeloNX/pulls/11))\n- Add Update Manager (Added title update functionality, [PR #7](https://git.743378673.xyz/MeloNX/MeloNX/pulls/7))\n- Add Handheld input\n- Add Device and Device OS Version to information\n- Rewrote JIT Acquisition tester to include all iOS ver support\n- Better Performance\n- Removed SDL Window option\n- Added back iOS 15 support (untested)\n- Removed Herobrine\n\n(Please note that the pull requests still point to the old git server as the prs didn't move to the Ryubing gitlab server but the changes are in this release)",
           "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/584/download",
@@ -80,7 +80,7 @@
         },
         {
           "version": "1.2.1",
-          "buildVersion": "1.2.1",
+          "buildVersion": "1",
           "date": "2025-07-14",
           "localizedDescription": "# Changelog\n- Fix Game Updates",
           "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/583/download",
@@ -88,7 +88,7 @@
         },
         {
           "version": "1.2.0",
-          "buildVersion": "1.2.0",
+          "buildVersion": "1",
           "date": "2025-07-14",
           "localizedDescription": "# Changelog\n- Information Section in Settings\n- Entitlement Checker\n- Device Memory in Information Section\n- Moved JIT Acquisition to Information Section \n- Language and Region Settings\n- On-Screen Controller Scale\n- Game Updates\n- Game Update Manager\n- Better Performance",
           "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/582/download",
@@ -96,7 +96,7 @@
         },
         {
           "version": "1.1.0",
-          "buildVersion": "1.1.0",
+          "buildVersion": "1",
           "date": "2025-07-14",
           "localizedDescription": "# Changelog\n- Add \"MVK: Synchronous Queue Submits\" option in Settings\n- Fixes Software Keyboard\n- Adds \"Disable PTC\" Option\n- Fix the controllers going Vertical.\n- Fix Airplay Metal HUD\n- Add \"Disable VSync\" Option\n- Fix Spelling Mistake (\"Aquired\" > \"Acquired\")\n- Set Version in-app to 1.1.0 ",
           "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/581/download",
@@ -104,7 +104,7 @@
         },
         {
           "version": "1.0.0",
-          "buildVersion": "1.0.0",
+          "buildVersion": "1",
           "date": "2025-07-14",
           "localizedDescription": "First Release :))) (version in-app is 0.0.8)",
           "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/591/download",
