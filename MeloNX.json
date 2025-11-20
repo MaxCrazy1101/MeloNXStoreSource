@@ -2,7 +2,7 @@
   "name": "MeloNX Releases",
   "subtitle": "Release builds from MelonX",
   "description": "Automatic hourly feed of MeloNX release builds.",
-  "iconURL": "https://raw.githubusercontent.com/Zedw/MeloNX-Source/main/icon.png",
+  "iconURL": "https://raw.githubusercontent.com/MaxCrazy1101/MeloNXStoreSource/main/icon.png",
   "tintColor": "#2ECC71",
   "apps": [
     {
@@ -11,7 +11,7 @@
       "developerName": "MeloNX Team",
       "subtitle": "The most advanced Nintendo Switch emulator for iOS",
       "localizedDescription": "The most advanced Nintendo Switch emulator for iOS. Built on the Ryujinx core...",
-      "iconURL": "https://raw.githubusercontent.com/Zedw/MeloNX-Source/main/icon.png",
+      "iconURL": "https://raw.githubusercontent.com/MaxCrazy1101/MeloNXStoreSource/main/icon.png",
       "category": "games",
       "versions": [
         {
