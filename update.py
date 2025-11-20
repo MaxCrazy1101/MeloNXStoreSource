@@ -84,7 +84,8 @@ def generate_sidestore_json():
             # 4. Construct Version object
             version_obj = {
                 "version": tag_name,
-                "buildVersion": tag_name,
+                # "buildVersion": tag_name,
+                "buildVersion": "1",
                 "date": date_str,
                 "localizedDescription": description,
                 "downloadURL": download_url,
