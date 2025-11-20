@@ -1,0 +1,44 @@
+name: Update MeloNX JSON
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    # 赋予写入权限，否则无法 push 代码
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run update script
+        run: python update.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          if [[ -n $(git status -s) ]]; then
+            echo "Changes detected. Committing..."
+            git add MeloNX.json
+            git commit -m "Auto-update SideStore JSON [skip ci]"
+            git push
+          else
+            echo "No changes detected. Skipping commit."
+          fi
