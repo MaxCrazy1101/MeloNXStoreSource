@@ -15,6 +15,14 @@
       "category": "games",
       "versions": [
         {
+          "version": "2.2",
+          "buildVersion": "1",
+          "date": "2025-12-27",
+          "localizedDescription": "# What's New\n\n## Important\n- Complete UI and Controller Handling Rewrite.\n--- \n\n## Updates\n- Updated iOS 26 JIT to be faster and map on-launch. \n- Menu Button enabled by default.\n- C# Trimming from Partial > Full. (Fixes Super Mario 3D All-Stars and other game launchers for A14 / M1 (Non-TXM) and below on iOS 26 and all devices on iOS 18)\n- All settings options now have information.\n- DLC and Update Manager can now import more then 1 at a time.\n- Waiting for JIT View.\n- JIT Indicator turns orange instead of green when `Increased Memory Limit` is not enabled.\n- Pausing now pauses the entire game and audio instead of only the renderer.\n- Rename \"Games\" tab to \"Library\".\n\n---\n\n## Fixes\n- AutoJIT (Automatic JIT Enabling) on iOS 26 or when using Certificates.\n- Detection for iOS 26 TXM (A15 / M2+) JIT. (Fix JIT showing that its enabled when its not)\n- File Picker with Certificates when picking folders. \n- Cheats (Thank you to @bxymartin for bringing this to my attention). \n- Crashing issues with notifications, changing volume, leaving app, etc.\n- Skip Setup.\n- Borders when using AirPlay.\n- Fix Touch not working when using Virtual Controller.\n- Splatoon 2/3.\n- Fix Super Mario Wonder (and other games that use profile images).\n- Random Crashes in Super Mario 3D World.\n- Fix crash when launching Metroid Prime 4.\n- URL Schemes enabling JIT.\n\n---\n\n## Additions\n- Controller Configuration in-game.\n- Multiple Library View Options (List, Grid, Compact Grid, etc).\n- Brand New App Icons.\n- Controller Support in List Library View.\n- Mod Manager.\n- Alternate Frontend Support with URL Schemes (SUMEE and Manic support).\n- Touch Rework with Multi-Touch Support.\n- Liquid Glass UI and App Icons.\n\n- Background Music.\n- New Crash Alert (ft. Sad Mac).\n- UI Shader Cache Loading Bar.\n- Remove \"New\" UI.\n- Link to Install Guide when `Increased Memory Limit` Entitlement is not enabled.\n- Global Virtual Controller Layout Editor.",
+          "downloadURL": "https://git.ryujinx.app/melonx/emu/-/package_files/1593/download",
+          "size": 0
+        },
+        {
           "version": "2.1",
           "buildVersion": "1",
           "date": "2025-11-02",
